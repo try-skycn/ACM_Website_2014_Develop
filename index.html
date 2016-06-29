@@ -1,6 +1,7 @@
 ---
 title:	Index
 Bugs: ACM班班徽的位置待定；响应式有一些bug；内容似乎还不够不知道加些啥。
+
 ---
 
 <!DOCTYPE html>
@@ -35,7 +36,9 @@ Bugs: ACM班班徽的位置待定；响应式有一些bug；内容似乎还不�
       <div class="col-md-6">
         <h1>最新新闻</h1>
         <ul>
-           
+           {% for post in paginator.posts %}
+	    	{% include brief_post.html %}
+        	{% endfor %}  
         </ul>
         <button type="button" class="btn btn_new" onclick="window.open('./news/index.html')">点击查看更多</button>
       </div>
