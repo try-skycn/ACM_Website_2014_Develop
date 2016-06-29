@@ -1,8 +1,6 @@
 encoding:       'utf-8'
 markdown:       kramdown
 highlighter:    pygments
-paginate:       10
-paginate_path:  "news/page:num"
 title:          ACM HONORED CLASS
 baseurl:        ""
 url:            ""

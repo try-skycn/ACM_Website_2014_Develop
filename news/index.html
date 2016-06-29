@@ -9,16 +9,3 @@ layout: default
 	{% endfor %}  
 	</ul>
 </div>	
-
-{% if paginator.total_pages > 1 %}
-	<div id="pagination">
-		{% if paginator.previous_page %}
-			<a class="prev" href="{{site.baseurl}}/news/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">&laquo; 返回</a>
-		{% endif %}
-
-		{% if paginator.next_page %}
-			<a class="next" href="{{site.baseurl}}/news/page{{ paginator.next_page }}/" >历史记录 &raquo;</a>
-		{% endif %}
-	</div>
-{% endif %}
-
