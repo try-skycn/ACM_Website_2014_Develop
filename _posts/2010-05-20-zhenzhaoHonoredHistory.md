@@ -2,16 +2,16 @@
 layout: news
 title: 郑曌：十年春秋铸剑 终登世界之巅（上海交通大学）
 category: news
-featrure: zheng-zhao.jpg
+feature: zheng-zhao.jpg
 ---
 
-<p align = "right">2010年05月20日13:57 </p>
+<p align = "right">2010年05月20日13:57 <br>
+来源：人民网</p>
+<!--break-->
 
-<p align = "right">来源：人民网</p>
+<img class="img-responsive" src="{{ "/images/news/zheng-zhao.jpg" | prepend: site.baseurl }}" alt="郑曌">
 
-<p><img src="/image/news/zheng-zhao.jpg" alt="郑曌"></p>
-
-<p>&emsp;&emsp; 郑曌，男，上海交通大学计算机系07级学生。</p>
+&emsp;&emsp;郑曌，男，上海交通大学计算机系07级学生。
 
 <p>&emsp;&emsp;他学习成绩优秀，科研能力突出，敢于挑战，勇于创新，积极探索，努力拼搏，表现出非凡的个人综合素质和团队合作能力。</p>
 
