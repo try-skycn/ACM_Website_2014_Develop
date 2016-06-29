@@ -1,0 +1,5 @@
+<div class="teacher_in">
+				<img src= "{{ post.feature }}">
+				<h1>{{ post.title }}</h1>
+				{{ post.content  | split:'<!--break-->' | first }}
+</div>
