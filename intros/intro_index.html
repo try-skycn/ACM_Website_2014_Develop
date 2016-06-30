@@ -14,49 +14,16 @@ title: Introduction
     </div>
     <div id="timeline">
     <ul id="dates">
-      <li><a href="#200203">2002.03</a></li>
-      <li><a href="#200206">2002.06</a></li>
-      <li><a href="#200504">2005.04</a></li>
-      <li><a href="#200505">2005.05</a></li>
-      <li><a href="#200601">2006.01</a></li>
-      <li><a href="#200712">2007.12</a></li>
-      <li><a href="#200811">2008.11</a></li>
-      <li><a href="#200912">2009.12</a></li>
-      <li><a href="#201002">2010.02</a></li>
-      <li><a href="#201206">2012.06</a></li>
+        {% for post in site.categories.timeline %}
+             <li><a href="#{{post.time}}">{{post.time}}</a></li>
+        {% endfor %}
     </ul>
     <ul id="issues">
-      <li id="200203">
-        <p>上海交通大学获得ACM国际大学生程序设计竞赛世界总冠军</p>
-      </li>
-      <li id="2000206">
-        <p>ACM班创立</p>
-      </li>
-      <li id="200504">
-        <p>02级戴文渊、03级赵爽、04级杨博海同学组成的上海交通大学队获得第29届ACM国际大学生程序设计竞赛世界总冠军</p>
-      </li>
-      <li id="200505">
-        <p>以ACM班为主体的“以培养创新人才为目标，深化计算机科学与技术专业教学改革”获得国家级教学成果二等奖</p>
-        <p></p>
-      </li>
-      <li id="200601">
-        <p>《研究性学习和创新能力培养的研究与示范，探索计算机专业创新人才培养的新模式》获得教育部研究专题项目资助</p>
-      </li>
-      <li id="200712">
-        <p>ACM班获得教育部“计算机创新人才培养实验区”</p>
-      </li>
-      <li id="200811">
-        <p>举办第一届上海交通大学ACM班体育节</p>
-      </li>
-      <li id="200912">
-        <p>举办第一届上海交通大学ACM班学术节</p>
-      </li>
-      <li id="201002">
-        <p>07级郑曌、08级吴卓杰、09级金斌同学组成的上海交通大学队获得第34届ACM国际大学生程序设计竞赛世界总冠军</p>
-      </li>
-      <li id="201206">
-        <p>ACM班十周年庆典</p>
-      </li>
+        {% for post in site.categories.timeline %}
+              <li id="{{post.time}}">
+                <p>{{post.title}}</p>
+              </li>
+        {% endfor %}
     </ul>
     <a href="#" id="next"></a>
    <a href="#" id="prev"></a>
