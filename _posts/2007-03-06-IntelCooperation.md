@@ -2,6 +2,7 @@
 layout:   news
 title:    英特尔与上海交通大学启动2007春季学期联合课程教学
 category: news
+feature: /news/intel-2007.jpg
 ---
 
 

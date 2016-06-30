@@ -2,7 +2,7 @@
 layout:  news
 title:   上海交通大学ACM班 - ACM班新版班衫开始征订啦！ 
 category: news
-feature: /images/news/cloth-blue.jpg
+feature: /news/cloth-blue.jpg
 ---
 
 <p>&emsp;&emsp;新版班衫由07级ACM张伟楠同学和丁铎同学共同设计，有白兰和红黑两种款式。</p>

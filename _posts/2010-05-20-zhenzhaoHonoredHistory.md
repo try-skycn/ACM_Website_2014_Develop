@@ -2,7 +2,7 @@
 layout: news
 title: 郑曌：十年春秋铸剑 终登世界之巅（上海交通大学）
 category: news
-feature: zheng-zhao.jpg
+feature: /news/zheng-zhao.jpg
 ---
 
 <p align = "right">2010年05月20日13:57 <br>
