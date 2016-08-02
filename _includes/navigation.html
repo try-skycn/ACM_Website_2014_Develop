@@ -27,6 +27,36 @@
           <ul class="dropdown-menu" role="menu">
 			<li><a href = "http://acm.sjtu.edu.cn/OnlineJudge">Online Judge</a></li>
             <li class="divider"></li>
+            {% for post in site.categories.course_programming reversed limit:1 %}
+           	{% if post.link != null %}
+           		<li><a href = "{{ post.link }}">程序设计 - {{ post.year }}</a></li>
+           	{% endif %}
+            {% endfor %}
+
+            {% for post in site.categories.course_data_structure reversed limit:1 %}
+           	{% if post.link != null %}
+           		<li><a href = "{{ post.link }}">数据结构 - {{ post.year }}</a></li>
+           	{% endif %}
+            {% endfor %}
+
+            {% for post in site.categories.course_ppca reversed limit:1 %}
+           	{% if post.link != null %}
+           		<li><a href = "{{ post.link }}">编程综合实践 - {{ post.year }}</a></li>
+           	{% endif %}
+            {% endfor %}
+
+            {% for post in site.categories.course_combinatorics reversed limit:1 %}
+           	{% if post.link != null %}
+           		<li><a href = "{{ post.link }}">图论与组合 - {{ post.year }}</a></li>
+           	{% endif %}
+            {% endfor %}
+
+            {% for post in site.categories.course_compiler reversed limit:1 %}
+           	{% if post.link != null %}
+           		<li><a href = "{{ post.link }}">编译器课程设计 - {{ post.year }}</a></li>
+           	{% endif %}
+            {% endfor %}
+            <li class="divider"></li>
             <li><a href = "http://acm.sjtu.edu.cn/wiki/%E8%AF%BE%E7%A8%8B%E4%B8%AD%E5%BF%83">Wiki Navigation</a></li>
             <li><a href = "http://acm.sjtu.edu.cn/wiki/Hall_of_fame"> Hall of Fame</a></li>
           </ul>
