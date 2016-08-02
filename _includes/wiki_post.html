@@ -1,0 +1,5 @@
+{% if post.link != null %}
+	<a href = "{{ post.link }}"> {{ post.year }}</a>
+{% else %}
+	{{ post.year }}
+{% endif %}
