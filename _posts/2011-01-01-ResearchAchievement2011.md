@@ -1,0 +1,47 @@
+---
+year:		2011
+category:	research_achievements
+---
+<ol><li> <i>Yang Li</i>, Feifei Li, Ke Yi, Bin Yao and Min Wang. Flexible Aggregate Similarity Search. <i>SIGMOD</i> 2011.
+</li><li> <i>Mohan Yang</i>, Haixun Wang, Haiquan Chen and Wei-Shinn Ku. Querying Uncertain Data with Aggregate Constraints. <i>SIGMOD</i> 2011.
+</li><li> <i>Xiao Jiang</i>, Chengkai Li, Ping Luo, Min Wang and Yong Yu. Prominent Streak Discovery in Sequential Data. <i>SIGKDD</i> 2011.
+</li><li> <i>Liangda Li</i>, <i>Ke Zhou</i>, Gui-Rong Xue, Hongyuan Zha and Yong Yu. Video Summarization via Transferrable Structured Learning. <i>WWW</i> 2011.
+</li><li> <i>Lichun Yang</i>, Shenghua Bao, Qingliang Lin, Xian Wu, Dingyi Han, Zhong Su and Yong Yu. Analyzing and Predicting Not-Answered Questions in Community-based Question Answering Services. <i>AAAI</i> 2011.
+</li><li> <i>Chang Liu</i>, Guilin Qi, Haofen Wang and Yong Yu. Large Scale Fuzzy pD* Reasoning using MapReduce. <i>ISWC</i> 2011.
+</li><li> Xing Niu, <i>Xinruo Sun</i>, Haofen Wang, Shu Rong, Guilin Qi and Yong Yu. Zhishi.me - Weaving Chinese Linking Open Data. <i>ISWC</i> 2011.
+</li><li> Guoqing Zheng, Jinwen Guo, <i>Lichun Yang</i>, Shengliang Xu, Shenghua Bao, Zhong Su, Dingyi Han and Yong Yu. Mining Topics on Participations for Community Discovery. <i>SIGIR</i> 2011.
+</li><li> <i>Duo Ding</i>, Xingping Jiang, Matthew Scott, Ming Zhou and Yong Yu. Tulsa: Web Search for Writing Assistance. <i>ACM SIGIR</i> 2011 (demo).
+</li><li> <i>Xiangru Chen</i>, Haofen Wang, <i>Xinruo Sun</i>, <i>Junfeng Pan</i> and Yong Yu. Diversifying Product Search Results. <i>ACM SIGIR</i> 2011 (poster).
+</li><li> <i>Xinruo Sun</i>, Haofen Wang and Yong Yu. Towards Effective Short Text Deep Classification. <i>ACM SIGIR</i> 2011 (poster).
+</li><li> Xiaohua Liu, <i>Shaodian Zhang</i>, Furu Wei and Ming Zhou. Recognizing Named Entities in Tweets. <i>ACL</i> 2011.
+</li><li> <i>Bing Li</i>, Rong Xiao, Zhiwei Li, Rui Cai, Bao-Liang Lu and Lei Zhang. Rank-SIFT: Learning to Rank Local Interest Points. <i>CVPR</i> 2011.
+</li><li> <i>Mu Li</i>, <i>Xiao-Chen Lian</i>, James Kwok and Bao-Liang Lu. Time and Space Efficient Spectral Clustering via Column Sampling. <i>CVPR</i> 2011.
+</li><li> <i>Yang Cao</i>, Changhu Wang, Liqing Zhang and Lei Zhang. Edgel Inverted Index for Large-Scale Sketch-based Image Search. <i>CVPR</i> 2011.
+</li><li> <i>Yu Zhang</i>, Jian Xu, Zhi-Jie Yan and Qiang Huo. A Study of an Irrelevant Variability Ormalization Based Discriminative Training Approach for LVCSR. <i>ICASSP</i> 2011.
+</li><li> <i>Le Chen</i>, Zhenfu Cao, Rongxing Lu, <i>Xiaohui Liang</i>, Xuemin Shen. EPF: An Event-Aided Packet Forwarding Protocol for Privacy-Preserving Mobile Healthcare Social Networks. <i>GLOBECOM</i> 2011.
+</li><li> <i>Xiaohui Liang</i>, Rongxing Lu, <i>Le Chen</i>, Xiaodong Lin, Xuemin (Sherman) Shen. PEC: A Privacy-Preserving Emergency Call Scheme for Mobile Healthcare Social Networks. <i>Journal of Communications and Networks</i> 2011.
+</li><li> Kewei Tu, <i>Xixiu Ouyang</i>, Dingyi Han, Vasant Honavar. Exemplar-based Robust Coherent Biclustering. <i>SDM</i> 2011.
+</li><li> Zhenjiang Zhan, <i>Lichun Yang</i>, Shenghua Bao, Dingyi Han, Zhong Su and Yong Yu. Finding Appropriate Experts for Collaboration. <i>WAIM</i>2011.
+</li><li> Yunbo Cao, Zhiyuan Chen, <i>Jiamin Zhu</i>, Pei Yue, Chin-Yew Lin and Yong Yu. Leveraging Unlabeled Data to Scale Blocking for Record Linkage. <i>IJCAI</i> 2011.
+</li><li> Wei Chen, Pinyan Lu, <i>Xiaorui Sun</i>, <i>Bo Tang</i>, Yajun Wang and Zeyuan Allen Zhu. Optimal Pricing in Social Networks with Incomplete Information. <i>WINE</i> 2011.
+</li><li> <i>Jie Wu</i>, Li-Chen Shi and Bao-Liang Lu. Removing Unrelated Features Based on Linear Dynamical System for Motor-Imagery-Based Brain-Computer Interface. <i>ICONIP</i> 2011.
+</li><li> Li-Chen Shi, Yang Li, <i>Rui-Hua Sun</i> and Bao-Liang Lu. A sparse common spatial pattern algorithm for brain-computer interface. <i>ICONIP</i> 2011.
+</li><li> Qiuxia Lu, <i>Diyi Yang</i>, <i>Tianqi Chen</i>, <i>Weinan Zhang</i> and Yong Yu. Informative Household Recommendation with Feature-based Matrix Factorization. <i>CAMRa</i> 2011.
+</li><li> Pengcheng Wang, Zhaoyu Gao, Xinhui Xu, <i>Yujiao Zhou</i>, Haojin Zhu and Kenny Qili Zhu. Automatic Inference of Movements from Contact Histories. <i>ACM SIGCOMM</i> 2011.
+</li><li> <i>Li Han</i>, <i>Chunzhi Su</i>, <i>Linpeng Tang</i> and <i>Hongyang Zhang</i>. On Strategy-proof Allocation without Payments or Priors. <i>WINE</i> 2011.
+</li><li> <i>Tianqi Chen</i>, <i>Zhao Zheng</i>, Qiuxia Lu, <i>Xiao Jiang</i>, <i>Yuqiang Chen</i>, <i>Weinan Zhang</i>, <i>Kailong Chen</i>, Yong Yu, Nathan N. Liu, Bin Cao, Luheng He and Qiang Yang. Informative Ensemble of Multi-Resolution Dynamic Factorization Models. <i>KDD-CUP</i> 2011 (best single model).
+</li><li> Wenlei Zhou, Haofen Wang, Jiansong Chao, <i>Weinan Zhang</i> and Yong Yu. LODDO: Using Linked Open Data Description Overlap to Measure Semantic Relatedness Between Named Entities. <i>JIST</i> 2011. 
+</li><li> <i>Dingquan Wang</i>, <i>Weinan Zhang</i>, Gui-Rong Xue and Yong Yu. Deep Classifier for Large Scale Hierarchical Text Classification. <i>LSHTC</i> 1(short paper).
+</li><li> Zhicheng Dou, Sha Hu, Yulong Luo, Ruihua Song and Ji-Rong Wen. Finding Dimensions for Queries. <i>CIKM</i> 2011.
+</li><li> <i>Minjie Wang</i>, Xiaoxin Tang, Yao Shen, Feilong Tang and Minyi Guo. A Method of Context-Driven HCI Service Selection in Multimodal Interaction Environments. <i>NBiS</i> 2011.
+</li><li> <i>Duo Ding</i>. Integrate Multilingual Web Search Results using Cross-Lingual Topic Models. <i>IJCNLP</i> 2011.
+</li><li> <i>Tian-Xiang Wu</i>, <i>Xiao-Chen Lian</i> and Bao-Liang Lu. Multi-view Gender Classification Using Symmetry of Facial Images. <i>NCA</i> 2011. 
+</li><li> <i>Yihe Zhu</i>, Haofen Wang, <i>Xixiu Ouyang&lt;/b&gt; and Yong Yu. Graph-based Bilingual Sentence Alignment From Large Scale Web Pages. </i>NLDB<i> 2011.     </i>
+</li><li> Xingzhi Sun, Leiguang Gong, Apostol Natsev, Xiaofei Teng, <i>Li Tian</i>, Tao Wang and Yue Pan. Image Modality Classification: a Late Fusion Method Based on Confidence Indicator and Closeness Matrix. <i>ICMR</i> 2011.
+</li><li> Jiansong Chao, Haofen Wang, Wenlei Zhou, <i>Weinan Zhang</i> and Yong Yu. TuneSensor: A Semantic-Driven Music Recommendation Service For Digital Photo Albums. <i>ISWC</i> 2011.
+</li><li> <i>Junfeng Pan</i>, Gui-Rong Xue, Yong Yu and Yang Wang. Cross-Lingual Sentiment Classification via Bi-view Non-negative Matrix Tri-Factorization. <i>PAKDD</i> 2011.
+</li><li> Yusuo Hu, <i>Yeqi Lu</i>, Minyi Guo and Feng Wu. Proportional Response Based Bandwidth Allocation for Layered P2P Live Streaming. <i>GLOBECOM</i> 2011.
+</li><li> <i>Chang Liu</i>, Guilin Qi, Haofen Wang and Yong Yu. Reasoning with Large Scale Ontologies in Fuzzy pD* using MapReduce. <i>IEEE Computational Intelligence Magazine</i> 2011.
+</li><li> Haofen Wang, Thanh Tran, <i>Chang Liu</i> and  <i>Linyun Fu</i>. Lightweight Integration of IR &amp; DB for Scalable Hybrid Search with Integrated Ranking Support. <i>Journal of Web Semantics</i> 2011.
+</li><li> <i>Chang Liu</i>, Guilin Qi, Haofen Wang and Yong Yu. Fuzzy Reasoning over RDF Data Using OWL Vocabulary. <i>WI</i> 2011.
+</li></ol>
