@@ -1,0 +1,47 @@
+---
+layout:	default
+title: Academic
+---
+
+<div class = "container_big bs-docs-container">
+  <div class = "academic_left">
+    <div class = "academic_lt">
+      <div>
+	<a href="./acmicpc.html">
+	  <h2>校队介绍</h2></a>
+      </div>
+      <div class = "academic_now">
+	<a href="./acmicpc_1.html">
+	  <h2>竞赛成绩</h2></a>
+      </div>
+      <div>
+	<a href="./acmicpc_2.html">
+	  <h2>赛场照片</h2></a>
+      </div>
+    </div>
+    <div class = "academic_bottom">
+      <div class="bs-docs-sidebar hidden-print hidden-xs" role="complementary">
+        <ul class="nav bs-docs-sidenav">
+	  {% for post in site.categories.acmicpc_achievements%}
+          <li>
+            <a href="#{{post.year}}">
+              <span class="toctext">{{post.year}}</span>
+            </a>
+          </li>
+	  {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class = "acm_article academic_main" role = "main">
+    <h1>竞赛成绩</h1>
+    <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+      {% for post in site.categories.acmicpc_achievements %}
+      <div id = "{{post.year}}"></div><br/>
+      <h2> <span class="mw-headline"> {{post.year}} </span></h2>
+      {{post.content}}
+      {% endfor %}
+    </div>
+  </div>
+</div>
