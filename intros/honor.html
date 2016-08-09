@@ -15,21 +15,20 @@ title: honor
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item acm_size_slide active" style = "background-image:url(../images/ACMFinal2014.jpg);">
+    {% for post in site.categories.acmicpc_final reversed limit:1 %}
+    <div class="item acm_size_slide active" style = "background-image:url(../images/{{ post.feature }});">
       <div class="acm_caption_bac">
-           <h3>2014年 ACM_ICPC 国际大学生程序设计大赛决赛 上海交大摘银</h3>
+           <h3>{{ post.year }}年 ACM-ICPC 国际大学生程序设计大赛决赛 上海交大{{ post.title }}</h3>
       </div>
     </div>
-    <div class="item acm_size_slide" style = "background-image:url(../images/ACMFinal2014.jpg);">
+    {% endfor %}
+    {% for post in site.categories.acmicpc_final offset:1 reversed limit:2 %}
+    <div class="item acm_size_slide" style = "background-image:url(../images/{{ post.feature }});">
       <div class="acm_caption_bac">
-           <h3>2014年 ACM_ICPC 国际大学生程序设计大赛决赛 上海交大摘银</h3>
+           <h3>{{ post.year }}年 ACM-ICPC 国际大学生程序设计大赛决赛 上海交大{{ post.title }}</h3>
       </div>
     </div>
-    <div class="item acm_size_slide" style = "background-image:url(../images/ACMFinal2014.jpg);">
-      <div class="acm_caption_bac">
-           <h3>2014年 ACM_ICPC 国际大学生程序设计大赛决赛 上海交大摘银</h3>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 
   <!-- Controls -->
@@ -44,58 +43,15 @@ title: honor
 </div>
 </div>
 <div class="teams_intro">
+      {% for post in site.categories.acmicpc_team reversed %}
       <div class="col-sm-4 one_team_intro">
         <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
+          <img src="../images/{{ post.feature }}" alt="">
+          <h3><a href = "#">{{ post.name }}</a></h3>
+          <div>队长：{{ post.leader }}</div>
+          <div>队员：{{ post.member }}</div>
+          <div>获奖经历：{{ post.award }}</div>
         </div>
       </div>
-      <div class="col-sm-4 one_team_intro">
-        <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
-        </div>
-      </div>
-      <div class="col-sm-4 one_team_intro">
-        <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
-        </div>
-      </div>
-      <div class="col-sm-4 one_team_intro">
-        <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
-        </div>
-      </div>
-      <div class="col-sm-4 one_team_intro">
-        <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
-        </div>
-      </div>
-      <div class="col-sm-4 one_team_intro">
-        <div class = "team_frame">
-          <img src="../images/intro_4.jpg" alt="">
-          <h3><a href = "#">Mithril</a></h3>
-          <div>队长：商静波</div>
-          <div>队员：金斌、郭晓旭</div>
-          <div>获奖经历：2013年FINAL全球亚军、亚洲冠军</div>
-        </div>
-      </div>
+      {% endfor %}
 </div>
