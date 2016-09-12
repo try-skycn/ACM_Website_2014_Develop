@@ -37,7 +37,7 @@ title: Academic
   <div class = "acm_article academic_main" role = "main">
     <h1>科研成果</h1>
     <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
-      {% for post in site.categories.research_achievements %}
+      {% for post in site.categories.research_achievements limit:10 %}
       <div id = "{{post.year}}"></div><br/>
       <h2> <span class="mw-headline"> {{post.year}} </span></h2>
       {{post.content}}

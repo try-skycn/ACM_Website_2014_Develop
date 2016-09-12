@@ -22,13 +22,20 @@ title: ACM-ICPC Records
     <div class = "academic_bottom">
       <div class="bs-docs-sidebar hidden-print hidden-xs" role="complementary">
         <ul class="nav bs-docs-sidenav">
-	  {% for post in site.categories.acmicpc_photos %}
+	  {% for post in site.categories.acmicpc_photos limit:10 %}
           <li>
             <a href="#{{post.year}}">
               <span class="toctext">{{post.year}}</span>
             </a>
           </li>
 	  {% endfor %}
+    {% for post in site.categories.acmicpc_photos offset:10 limit:1 %}
+          <li>
+            <a href="#{{post.year}}">
+              <span class="toctext">历史深处</span>
+            </a>
+          </li>
+    {% endfor %}
         </ul>
       </div>
     </div>
